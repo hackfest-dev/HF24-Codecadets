@@ -1,10 +1,5 @@
 # HF24-Codecadets
 
-VOICE VIGIL
+Voice Vigil: In an era marked by the proliferation of deepfake technology, the authenticity and integrity of audio communication are increasingly under threat. With the emergence of AI-driven voice synthesis, individuals can now easily impersonate others or generate entirely fabricated audio content, posing serious risks to privacy, security, and trust in communication channels. As a result, there is a pressing need for a robust solution to detect deepfake audio in real-time during phone calls and alert users to the presence of artificial or manipulated voices.
 
-IN AN ERA MARKED BY THE PROLIFERATION OF DEEPFAKE TECHNOLOGY, THEAUTHENTICITY AND INTEGRITY OF AUDIOCOMMUNICATION ARE INCREASINGLY UNDERTHREAT. WITH THE EMERGENCE OF AI-DRIVENVOICE SYNTHESIS, INDIVIDUALS CAN NOW EASILY IMPERSONATE OTHERS OR GENERATE
-ENTIRELY FABRICATED AUDIO CONTENT,POSING SERIOUS RISKS TO PRIVACY, SECURITY,AND TRUST IN COMMUNICATION CHANNELS.AS A RESULT, THERE IS A PRESSING NEED FOR A ROBUST SOLUTION TO DETECT DEEPFAKE AUDIO IN REAL-TIME DURING PHONE CALLS
-AND ALERT USERS TO THE PRESENCE OF ARTIFICIAL OR MANIPULATED VOICES.OUR PROJECT AIMS TO ADDRESS THIS CRITICAL CHALLENGE BY DEVELOPING A DEEPFAKE AUDIO DETECTION APP CAPABLE OF IDENTIFYING INSTANCES
-WHERE A CALLER IS USING A FAKE AI-GENERATED VOICE. BY LEVERAGING ADVANCED MACHINE LEARNING ALGORITHMS AND REAL-TIME AUDIO PROCESSING TECHNIQUES, OUR SOLUTION WILL ANALYZE THE ACOUSTIC FEATURES OF INCOMING AUDIO STREAMS
-DURING PHONE CALLS AND DISTINGUISH BETWEEN GENUINE HUMAN VOICES AND SYNTHETIC OR MANIPULATED ONES. UPON DETECTING SUSPICIOUS ACTIVITY INDICATIVE OF A DEEPFAKE VOICE, THE APP WILL PROMPTLY RAISE A WARNING TO ALERT THE
-RECIPIENT, ENABLING THEM TO EXERCISE CAUTION AND VERIFY THE AUTHENTICITY OF THE CALLER.
+Our project aims to address this critical challenge by developing a deepfake audio detection app capable of identifying instances where a caller is using a fake AI-generated voice. By leveraging advanced machine learning algorithms and real-time audio processing techniques, our solution will analyze the acoustic features of incoming audio streams during phone calls and distinguish between genuine human voices and synthetic or manipulated ones. Upon detecting suspicious activity indicative of a deepfake voice, the app will promptly raise a warning to alert the recipient, enabling them to exercise caution and verify the authenticity of the caller.
