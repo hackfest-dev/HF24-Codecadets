@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="font: size 30px;;font-weight: bold;">VOICE VIGIL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-image">
+        <div class="grid grid-cols-3 gap-4">
+            <div></div>
+            <div class="title-container h1">
+                <h1>VOICE VIGIL</h1>    
+            </div>
+            <div></div>
+            <div></div>
+            <div class="title-container h2"  >
+                <h2>CONNECTED WORLD: SAGE GUARDING INFORMATION.</h2>
+
+            </div>
+            <div class="btn-container">
+                <div>
+                    <a href="main.html" class="background-image-link">
+                        <img src="https://images.ctfassets.net/cnu0m8re1exe/6pHDO2pgfqi5cJv3m0cTmo/c815b159250ee2f4464859dacee39bf6/Untitled_design_-_2022-11-15T122800.147.png?fm=jpg&fl=progressive&w=660&h=433&fit=fill" alt="">
+                    </a>
+    
+                </div>
+            </div>
+            <div></div>
+            <button  class="btn" onclick="document.getElementById('audioInput').click()">Upload Audio</button>
+            <input type="file" id="audioInput" style="display: none;" accept="audio/*" onchange="handleAudioUpload(event)">
+            <div></div>
+        </div>
+    </div>
+    <h2 style="text-align: center;font-family: sans-serif; padding-top: 70px; color: aliceblue;">Some Features</h2>      
+<div class="home-container03">
+   
+    <div class="feature-card">
+        <h2>Deep Fake Audio Detection</h2>
+        <p>Advanced algorithms to detect deep fake audio with high accuracy</p>
+    </div>
+    <div class="feature-card">
+        <h2>User Verification</h2>
+        <p>Verify the authenticity of user-generated audio content</p>
+    </div>
+    <div class="feature-card">
+        <h2>Real-Time Analysis</h2>
+        <p>Instantly analyze audio files for deep fake indicators</p>
+    </div>
+    
+</div>
+
+<script>
+    function handleAudioUpload(event) {
+        const file = event.target.files[0];
+        // Handle the uploaded audio file here
+        alert("File uploaded: " + file.name);
+    }
+</script>
+
+<div class="home-banner">
+    <div class="bannerContainer home-banner1">
+        <h1 class="home-banner-heading heading2">
+            Detect and Verify Deep Fake Audio with Confidence
+        </h1>
+        <span class="home-banner-sub-heading bodySmall">
+            Our advanced technology can help you identify deep fake audio and ensure the credibility of your audio recordings. With our user-friendly platform, you can easily verify the authenticity of any audio file.
+        </span>
+        <button class="buttonFilled">Learn More</button>
+    </div>
+</div>
+
+
+</body>
+</html>
