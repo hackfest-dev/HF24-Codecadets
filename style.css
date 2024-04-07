@@ -1,0 +1,134 @@
+/* Resetting default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #34495E;
+}
+.h2{
+    text-align: center;
+    margin-left: 25px;
+}
+.title-container h1 {
+    text-align: center;
+    color: white;
+}
+
+.title-container h2 {
+    white-space: nowrap;
+}
+
+/* Container styles */
+.background-image {
+    background-image: url('background.jpg'); /* Add your background image path here */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn-container {
+    grid-column: span 3; /* Span across all columns */
+    text-align: center;
+}
+
+.btn {
+    width: 150px; /* Adjust the width */
+    height: 50px; /* Adjust the height */
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #ccc; /* Adjust the border width and color */
+    border-radius: 10px; /* Adjust the border radius to control the roundness of corners */
+    padding: 5px; /* Adjust padding if necessary */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    display: block; /* Ensure the button takes full width */
+    position: relative;
+}
+
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Feature cards styles */
+.home-container03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 30px; /* Adjust this value as needed */
+}
+
+.feature-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.feature-card:hover {
+    background-color: #16A085; /* Change color to #16A085 on hover */
+}
+
+.feature-card h2 {
+    color: #333;
+}
+
+.feature-card p {
+    color: #666;
+}
+
+/* Banner styles */
+.home-banner {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.home-banner-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.home-banner-sub-heading {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.buttonFilled {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttonFilled:hover {
+    background-color: #004080;
+}
